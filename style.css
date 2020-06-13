@@ -1,1 +1,27 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0;
+    height: 1vh;
+    width: 100%
+}
+
+.subcontainer {
+    height: 40px;
+    width: 100%;
+    background: rgb(78, 158, 187);
+}
+
+.mainhead {
+    color: white;
+    font-size: 40px;
+}
