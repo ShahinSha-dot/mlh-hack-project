@@ -1,27 +1,21 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    margin: 0;
-    height: 1vh;
-    width: 100%
-}
-
-.subcontainer {
-    height: 40px;
-    width: 100%;
-    background: rgb(78, 158, 187);
-}
-
-.mainhead {
-    color: white;
+body{
+    margin:0;
+    padding:0;
+  }
+  
+  .intro-container{
+    width:80%;
+    height: 700px;
+    margin:5% auto;
+   
+    background-color: blue;
+  }
+  /* The Following part is done by me(ved) */
+  
+  .heading {
     font-size: 40px;
-}
+    background-color:#F4D757;
+  }
+  
+  /* Ends here */
+  
